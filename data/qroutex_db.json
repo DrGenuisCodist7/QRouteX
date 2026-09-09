@@ -1,0 +1,1315 @@
+{
+  "vehicles": [
+    {
+      "id": "V-07",
+      "registration": "TS-09-EV-4029",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Arjun Kumar",
+        "phone": "+91 98490 12841",
+        "rating": 4.9,
+        "deliveriesCompletedToday": 14
+      },
+      "status": "active",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 81,
+      "currentLoadKg": 435.5,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 44,
+      "ordersCount": 15,
+      "currentCoordinates": [
+        17.4302,
+        78.4071
+      ],
+      "assignedRouteId": "route-v07",
+      "eta": "10:42 AM",
+      "speedKmh": 38,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 98
+    },
+    {
+      "id": "V-03",
+      "registration": "TS-10-TR-8812",
+      "type": "Truck",
+      "driver": {
+        "name": "Rahul Sharma",
+        "phone": "+91 97110 54920",
+        "rating": 4.7,
+        "deliveriesCompletedToday": 21
+      },
+      "status": "traffic",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 68,
+      "currentLoadKg": 1900,
+      "maxCapacityKg": 2500,
+      "loadPercentage": 76,
+      "ordersCount": 21,
+      "currentCoordinates": [
+        17.3971,
+        78.4894
+      ],
+      "assignedRouteId": "route-v03",
+      "eta": "11:18 AM",
+      "speedKmh": 14,
+      "co2PerKmGrams": 185,
+      "healthScorePct": 91
+    },
+    {
+      "id": "V-11",
+      "registration": "TS-08-EV-9120",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Priya Reddy",
+        "phone": "+91 99882 34110",
+        "rating": 4.95,
+        "deliveriesCompletedToday": 9
+      },
+      "status": "break",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 54,
+      "currentLoadKg": 310,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 31,
+      "ordersCount": 9,
+      "currentCoordinates": [
+        17.3616,
+        78.4747
+      ],
+      "assignedRouteId": "route-v11",
+      "eta": "12:06 PM",
+      "speedKmh": 0,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 95
+    },
+    {
+      "id": "V-04",
+      "registration": "TS-07-TR-6531",
+      "type": "Truck",
+      "driver": {
+        "name": "Vikram Singh",
+        "phone": "+91 98104 77291",
+        "rating": 4.8,
+        "deliveriesCompletedToday": 17
+      },
+      "status": "active",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 73,
+      "currentLoadKg": 2200,
+      "maxCapacityKg": 2500,
+      "loadPercentage": 88,
+      "ordersCount": 17,
+      "currentCoordinates": [
+        17.4485,
+        78.3752
+      ],
+      "assignedRouteId": "route-v04",
+      "eta": "11:41 AM",
+      "speedKmh": 42,
+      "co2PerKmGrams": 195,
+      "healthScorePct": 89
+    },
+    {
+      "id": "V-01",
+      "registration": "TS-09-EV-1102",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Deepak Varma",
+        "phone": "+91 98480 33491",
+        "rating": 4.85,
+        "deliveriesCompletedToday": 19
+      },
+      "status": "active",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 89,
+      "currentLoadKg": 650,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 65,
+      "ordersCount": 19,
+      "currentCoordinates": [
+        17.4125,
+        78.438
+      ],
+      "assignedRouteId": "route-v01",
+      "eta": "10:15 AM",
+      "speedKmh": 35,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 99
+    },
+    {
+      "id": "V-02",
+      "registration": "TS-11-VN-5491",
+      "type": "Van",
+      "driver": {
+        "name": "Ananya Sen",
+        "phone": "+91 97412 88990",
+        "rating": 4.9,
+        "deliveriesCompletedToday": 16
+      },
+      "status": "active",
+      "isEV": false,
+      "energyType": "Hybrid",
+      "energyLevelPct": 62,
+      "currentLoadKg": 580,
+      "maxCapacityKg": 1200,
+      "loadPercentage": 48,
+      "ordersCount": 16,
+      "currentCoordinates": [
+        17.452,
+        78.498
+      ],
+      "assignedRouteId": "route-v02",
+      "eta": "10:55 AM",
+      "speedKmh": 28,
+      "co2PerKmGrams": 90,
+      "healthScorePct": 94
+    },
+    {
+      "id": "V-05",
+      "registration": "TS-08-EV-7721",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Siddharth Rao",
+        "phone": "+91 99120 44556",
+        "rating": 4.75,
+        "deliveriesCompletedToday": 12
+      },
+      "status": "active",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 75,
+      "currentLoadKg": 720,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 72,
+      "ordersCount": 12,
+      "currentCoordinates": [
+        17.388,
+        78.441
+      ],
+      "assignedRouteId": "route-v05",
+      "eta": "11:05 AM",
+      "speedKmh": 31,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 96
+    },
+    {
+      "id": "V-06",
+      "registration": "TS-09-TR-2294",
+      "type": "Truck",
+      "driver": {
+        "name": "Farhan Ali",
+        "phone": "+91 98850 11223",
+        "rating": 4.65,
+        "deliveriesCompletedToday": 24
+      },
+      "status": "active",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 58,
+      "currentLoadKg": 2050,
+      "maxCapacityKg": 2500,
+      "loadPercentage": 82,
+      "ordersCount": 24,
+      "currentCoordinates": [
+        17.491,
+        78.392
+      ],
+      "assignedRouteId": "route-v06",
+      "eta": "11:50 AM",
+      "speedKmh": 45,
+      "co2PerKmGrams": 200,
+      "healthScorePct": 88
+    },
+    {
+      "id": "V-08",
+      "registration": "TS-10-EV-3319",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Meera Patel",
+        "phone": "+91 97001 99887",
+        "rating": 4.92,
+        "deliveriesCompletedToday": 15
+      },
+      "status": "active",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 69,
+      "currentLoadKg": 530,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 53,
+      "ordersCount": 15,
+      "currentCoordinates": [
+        17.42,
+        78.53
+      ],
+      "assignedRouteId": "route-v08",
+      "eta": "11:10 AM",
+      "speedKmh": 36,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 97
+    },
+    {
+      "id": "V-09",
+      "registration": "TS-07-VN-4401",
+      "type": "Van",
+      "driver": {
+        "name": "Karthik Nair",
+        "phone": "+91 99490 88221",
+        "rating": 4.7,
+        "deliveriesCompletedToday": 18
+      },
+      "status": "active",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 49,
+      "currentLoadKg": 890,
+      "maxCapacityKg": 1200,
+      "loadPercentage": 74,
+      "ordersCount": 18,
+      "currentCoordinates": [
+        17.345,
+        78.552
+      ],
+      "assignedRouteId": "route-v09",
+      "eta": "12:15 PM",
+      "speedKmh": 33,
+      "co2PerKmGrams": 145,
+      "healthScorePct": 90
+    },
+    {
+      "id": "V-10",
+      "registration": "TS-09-EV-6610",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Suresh Menon",
+        "phone": "+91 98499 66770",
+        "rating": 4.88,
+        "deliveriesCompletedToday": 13
+      },
+      "status": "active",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 83,
+      "currentLoadKg": 460,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 46,
+      "ordersCount": 13,
+      "currentCoordinates": [
+        17.465,
+        78.362
+      ],
+      "assignedRouteId": "route-v10",
+      "eta": "10:30 AM",
+      "speedKmh": 40,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 99
+    },
+    {
+      "id": "V-12",
+      "registration": "TS-08-TR-9901",
+      "type": "Truck",
+      "driver": {
+        "name": "Manoj Joshi",
+        "phone": "+91 98119 55443",
+        "rating": 4.72,
+        "deliveriesCompletedToday": 20
+      },
+      "status": "active",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 77,
+      "currentLoadKg": 2150,
+      "maxCapacityKg": 2500,
+      "loadPercentage": 86,
+      "ordersCount": 20,
+      "currentCoordinates": [
+        17.485,
+        78.445
+      ],
+      "assignedRouteId": "route-v12",
+      "eta": "11:25 AM",
+      "speedKmh": 29,
+      "co2PerKmGrams": 190,
+      "healthScorePct": 92
+    },
+    {
+      "id": "V-13",
+      "registration": "TS-10-EV-1008",
+      "type": "Electric Van",
+      "driver": {
+        "name": "Tanvi Shah",
+        "phone": "+91 97000 12345",
+        "rating": 4.91,
+        "deliveriesCompletedToday": 0
+      },
+      "status": "idle",
+      "isEV": true,
+      "energyType": "EV Battery",
+      "energyLevelPct": 100,
+      "currentLoadKg": 0,
+      "maxCapacityKg": 1000,
+      "loadPercentage": 0,
+      "ordersCount": 0,
+      "currentCoordinates": [
+        17.4399,
+        78.4983
+      ],
+      "assignedRouteId": "",
+      "eta": "Standby",
+      "speedKmh": 0,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 100
+    },
+    {
+      "id": "V-14",
+      "registration": "TS-11-VN-7822",
+      "type": "Van",
+      "driver": {
+        "name": "Rohan Deshmukh",
+        "phone": "+91 99881 22334",
+        "rating": 4.6,
+        "deliveriesCompletedToday": 0
+      },
+      "status": "idle",
+      "isEV": false,
+      "energyType": "Hybrid",
+      "energyLevelPct": 92,
+      "currentLoadKg": 0,
+      "maxCapacityKg": 1200,
+      "loadPercentage": 0,
+      "ordersCount": 0,
+      "currentCoordinates": [
+        17.4399,
+        78.4983
+      ],
+      "assignedRouteId": "",
+      "eta": "Standby",
+      "speedKmh": 0,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 94
+    },
+    {
+      "id": "V-15",
+      "registration": "TS-09-TR-0044",
+      "type": "Truck",
+      "driver": {
+        "name": "Gurpreet Singh",
+        "phone": "+91 98110 99881",
+        "rating": 4.55,
+        "deliveriesCompletedToday": 0
+      },
+      "status": "service",
+      "isEV": false,
+      "energyType": "Diesel",
+      "energyLevelPct": 35,
+      "currentLoadKg": 0,
+      "maxCapacityKg": 2500,
+      "loadPercentage": 0,
+      "ordersCount": 0,
+      "currentCoordinates": [
+        17.455,
+        78.512
+      ],
+      "assignedRouteId": "",
+      "eta": "In Workshop",
+      "speedKmh": 0,
+      "co2PerKmGrams": 0,
+      "healthScorePct": 65
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "rgbthkenvl",
+      "customerType": "Pharmacy",
+      "address": "q3f3etg3g",
+      "coordinates": [
+        17.40135986112418,
+        78.42946629831438
+      ],
+      "priority": "HIGH",
+      "timeWindow": "11:00 – 13:00",
+      "assignedVehicleId": "V-07",
+      "state": "Assigned",
+      "weightKg": 15.5,
+      "packagesCount": 2,
+      "notes": "vtrebtew",
+      "id": "#1018",
+      "trackingCode": "QRX-PHA-3227",
+      "deadlineIso": "2026-09-09T09:55:32.180Z",
+      "slaRisk": "MEDIUM"
+    },
+    {
+      "customerName": "AeroSpace Hub Alpha",
+      "customerType": "Enterprise",
+      "address": "Gachibowli Outer Ring Rd, Block 4",
+      "coordinates": [
+        17.43491549993871,
+        78.45246389822134
+      ],
+      "priority": "NORMAL",
+      "timeWindow": "14:00 - 15:30",
+      "assignedVehicleId": "V-101",
+      "state": "Assigned",
+      "weightKg": 45.5,
+      "packagesCount": 3,
+      "notes": "Contains sensitive flight telematics gear",
+      "id": "#577",
+      "trackingCode": "QRX-ENT-6433",
+      "deadlineIso": "2026-09-09T09:48:56.195Z",
+      "slaRisk": "HIGH"
+    },
+    {
+      "customerName": "AeroSpace Hub Alpha",
+      "customerType": "Enterprise",
+      "address": "Gachibowli Outer Ring Rd, Block 4",
+      "coordinates": [
+        17.425209514376327,
+        78.42640171807294
+      ],
+      "priority": "URGENT",
+      "timeWindow": "14:00 - 15:30",
+      "assignedVehicleId": "V-101",
+      "state": "Queued",
+      "weightKg": 45.5,
+      "packagesCount": 3,
+      "notes": "Contains sensitive flight telematics gear",
+      "id": "#869",
+      "trackingCode": "QRX-ENT-3623",
+      "deadlineIso": "2026-09-09T09:48:22.307Z",
+      "slaRisk": "HIGH"
+    },
+    {
+      "id": "#438",
+      "trackingCode": "QRX-MED-8812",
+      "customerName": "City Hospital Emergency Care",
+      "customerType": "Hospital",
+      "address": "Road No. 1, Banjara Hills, Hyderabad",
+      "coordinates": [
+        17.403,
+        78.4691
+      ],
+      "priority": "URGENT",
+      "timeWindow": "09:30 – 10:30",
+      "assignedVehicleId": "V-07",
+      "state": "Out for delivery",
+      "weightKg": 28.5,
+      "packagesCount": 3,
+      "deadlineIso": "2026-09-09T10:30:00Z",
+      "slaRisk": "LOW",
+      "notes": "Temperature-controlled vaccines & blood plasma units. Priority handling."
+    },
+    {
+      "id": "#452",
+      "trackingCode": "QRX-RET-9104",
+      "customerName": "Retail Hub SuperCenter",
+      "customerType": "Retail Hub",
+      "address": "Koti Commercial Complex, Secunderabad",
+      "coordinates": [
+        17.3971,
+        78.4894
+      ],
+      "priority": "HIGH",
+      "timeWindow": "10:00 – 12:00",
+      "assignedVehicleId": "V-03",
+      "state": "Assigned",
+      "weightKg": 340,
+      "packagesCount": 18,
+      "deadlineIso": "2026-09-09T12:00:00Z",
+      "slaRisk": "MEDIUM",
+      "notes": "Bulk consumer electronics restock. Forklift required at bay 4."
+    },
+    {
+      "id": "#467",
+      "trackingCode": "QRX-RES-1092",
+      "customerName": "Home Delivery — Ananya Verma",
+      "customerType": "Residential",
+      "address": "Plot 42, Jubilee Hills Sector 3, Hyderabad",
+      "coordinates": [
+        17.4302,
+        78.4071
+      ],
+      "priority": "NORMAL",
+      "timeWindow": "12:00 – 14:00",
+      "assignedVehicleId": "V-11",
+      "state": "Queued",
+      "weightKg": 4.2,
+      "packagesCount": 1,
+      "deadlineIso": "2026-09-09T14:00:00Z",
+      "slaRisk": "LOW",
+      "notes": "Contactless doorstep drop. Ring smart doorbell."
+    },
+    {
+      "id": "#471",
+      "trackingCode": "QRX-ENT-3301",
+      "customerName": "FinTech Tower HQ",
+      "customerType": "Enterprise",
+      "address": "Financial District, Nanakramguda, Gachibowli",
+      "coordinates": [
+        17.418,
+        78.345
+      ],
+      "priority": "HIGH",
+      "timeWindow": "11:00 – 13:00",
+      "assignedVehicleId": "V-04",
+      "state": "Out for delivery",
+      "weightKg": 85,
+      "packagesCount": 6,
+      "deadlineIso": "2026-09-09T13:00:00Z",
+      "slaRisk": "LOW",
+      "notes": "Server rack replacement hardware. Security clearance at Gate 2."
+    },
+    {
+      "id": "#483",
+      "trackingCode": "QRX-MED-9920",
+      "customerName": "Apollo Speciality Pharmacy",
+      "customerType": "Pharmacy",
+      "address": "Himayatnagar Main Road, Hyderabad",
+      "coordinates": [
+        17.401,
+        78.489
+      ],
+      "priority": "URGENT",
+      "timeWindow": "10:15 – 11:15",
+      "assignedVehicleId": "V-07",
+      "state": "Out for delivery",
+      "weightKg": 16.8,
+      "packagesCount": 2,
+      "deadlineIso": "2026-09-09T11:15:00Z",
+      "slaRisk": "LOW",
+      "notes": "Critical prescription batch refill."
+    },
+    {
+      "id": "#495",
+      "trackingCode": "QRX-RET-7781",
+      "customerName": "Metro HyperMarket",
+      "customerType": "Retail Hub",
+      "address": "Kukatpally Y Junction, Hyderabad",
+      "coordinates": [
+        17.491,
+        78.392
+      ],
+      "priority": "NORMAL",
+      "timeWindow": "14:00 – 16:00",
+      "assignedVehicleId": "V-06",
+      "state": "Assigned",
+      "weightKg": 620,
+      "packagesCount": 32,
+      "deadlineIso": "2026-09-09T16:00:00Z",
+      "slaRisk": "LOW",
+      "notes": "Packaged organic produce palettes."
+    },
+    {
+      "id": "#502",
+      "trackingCode": "QRX-RES-5512",
+      "customerName": "Dr. Srinivas Rao",
+      "customerType": "Residential",
+      "address": "Dilsukhnagar East, Near Metro Pillar 128",
+      "coordinates": [
+        17.368,
+        78.532
+      ],
+      "priority": "NORMAL",
+      "timeWindow": "15:00 – 17:00",
+      "assignedVehicleId": "V-09",
+      "state": "Queued",
+      "weightKg": 8.5,
+      "packagesCount": 2,
+      "deadlineIso": "2026-09-09T17:00:00Z",
+      "slaRisk": "LOW",
+      "notes": "Medical diagnostic apparatus."
+    },
+    {
+      "id": "#510",
+      "trackingCode": "QRX-ENT-6619",
+      "customerName": "Cyber Towers Tech Park",
+      "customerType": "Enterprise",
+      "address": "HITEC City Phase II, Madhapur",
+      "coordinates": [
+        17.4504,
+        78.381
+      ],
+      "priority": "HIGH",
+      "timeWindow": "11:30 – 13:30",
+      "assignedVehicleId": "V-01",
+      "state": "Out for delivery",
+      "weightKg": 45,
+      "packagesCount": 4,
+      "deadlineIso": "2026-09-09T13:30:00Z",
+      "slaRisk": "LOW",
+      "notes": "Smart office automation equipment."
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-v07",
+      "name": "Depot → Jubilee Hills → Banjara Hills (Hospital)",
+      "strategy": "fastest",
+      "badgeLabel": "QAOA #1 Fast",
+      "vehicleId": "V-07",
+      "totalDistanceKm": 42.4,
+      "etaFormatted": "2h 10m",
+      "durationMinutes": 130,
+      "fuelOrEnergyUsage": "14.2 kWh (EV)",
+      "co2Kg": 0,
+      "stopsCount": 14,
+      "riskLevel": "Low",
+      "status": "Active",
+      "description": "High-priority medical and parcel corridor via Outer Ring connector.",
+      "waypoints": [
+        [
+          17.4399,
+          78.4983
+        ],
+        [
+          17.435,
+          78.465
+        ],
+        [
+          17.4302,
+          78.4071
+        ],
+        [
+          17.4125,
+          78.438
+        ],
+        [
+          17.403,
+          78.4691
+        ]
+      ]
+    },
+    {
+      "id": "route-v03",
+      "name": "Depot → Secunderabad Hub → Koti Commercial",
+      "strategy": "cheapest",
+      "badgeLabel": "Optimal Cost",
+      "vehicleId": "V-03",
+      "totalDistanceKm": 47.1,
+      "etaFormatted": "2h 25m",
+      "durationMinutes": 145,
+      "fuelOrEnergyUsage": "4.4 L Diesel",
+      "co2Kg": 11.5,
+      "stopsCount": 21,
+      "riskLevel": "Medium",
+      "status": "Traffic",
+      "description": "Heavy cargo bulk distribution through commercial transit corridor.",
+      "waypoints": [
+        [
+          17.4399,
+          78.4983
+        ],
+        [
+          17.441,
+          78.502
+        ],
+        [
+          17.415,
+          78.51
+        ],
+        [
+          17.3971,
+          78.4894
+        ],
+        [
+          17.375,
+          78.51
+        ]
+      ]
+    },
+    {
+      "id": "route-v11",
+      "name": "Depot → Charminar → Old City Heritage Loop",
+      "strategy": "greenest",
+      "badgeLabel": "−31% CO₂",
+      "vehicleId": "V-11",
+      "totalDistanceKm": 51.8,
+      "etaFormatted": "2h 32m",
+      "durationMinutes": 152,
+      "fuelOrEnergyUsage": "12.8 kWh (EV)",
+      "co2Kg": 0,
+      "stopsCount": 9,
+      "riskLevel": "High",
+      "status": "Re-route",
+      "description": "Zero-emission urban green route navigating heritage narrow lanes.",
+      "waypoints": [
+        [
+          17.4399,
+          78.4983
+        ],
+        [
+          17.418,
+          78.472
+        ],
+        [
+          17.385,
+          78.475
+        ],
+        [
+          17.3616,
+          78.4747
+        ],
+        [
+          17.34,
+          78.45
+        ]
+      ]
+    },
+    {
+      "id": "route-v04",
+      "name": "Depot → Madhapur → Financial District Tech Corridor",
+      "strategy": "balanced_quantum",
+      "badgeLabel": "Quantum Balanced",
+      "vehicleId": "V-04",
+      "totalDistanceKm": 38.6,
+      "etaFormatted": "1h 55m",
+      "durationMinutes": 115,
+      "fuelOrEnergyUsage": "3.9 L Diesel",
+      "co2Kg": 9.8,
+      "stopsCount": 17,
+      "riskLevel": "Low",
+      "status": "Active",
+      "description": "Enterprise hardware & server express corridor via PVNR Expressway.",
+      "waypoints": [
+        [
+          17.4399,
+          78.4983
+        ],
+        [
+          17.452,
+          78.46
+        ],
+        [
+          17.4485,
+          78.3752
+        ],
+        [
+          17.418,
+          78.345
+        ]
+      ]
+    }
+  ],
+  "disruptions": [],
+  "analytics": {
+    "distanceSavedPct": 14.8,
+    "fuelSavedCurrencyEstimate": "₹2,340 / day",
+    "fuelSavedPct": 11.2,
+    "co2ReducedPct": 18.4,
+    "co2SavedKg": 226,
+    "deliverySlaPct": 91.4,
+    "fleetUtilizationPct": 86.2,
+    "routeFeasibilityPct": 97.8,
+    "sustainabilityScore": 82.5,
+    "hourlyEfficiency": [
+      {
+        "hour": "06:00",
+        "classicalCost": 120,
+        "quantumCost": 104,
+        "deliveries": 12
+      },
+      {
+        "hour": "08:00",
+        "classicalCost": 260,
+        "quantumCost": 215,
+        "deliveries": 38
+      },
+      {
+        "hour": "10:00",
+        "classicalCost": 480,
+        "quantumCost": 395,
+        "deliveries": 64
+      },
+      {
+        "hour": "12:00",
+        "classicalCost": 610,
+        "quantumCost": 512,
+        "deliveries": 55
+      },
+      {
+        "hour": "14:00",
+        "classicalCost": 520,
+        "quantumCost": 430,
+        "deliveries": 42
+      },
+      {
+        "hour": "16:00",
+        "classicalCost": 430,
+        "quantumCost": 362,
+        "deliveries": 30
+      },
+      {
+        "hour": "18:00",
+        "classicalCost": 290,
+        "quantumCost": 248,
+        "deliveries": 18
+      },
+      {
+        "hour": "20:00",
+        "classicalCost": 140,
+        "quantumCost": 118,
+        "deliveries": 7
+      }
+    ],
+    "powertrainDistribution": [
+      {
+        "name": "Electric (EV)",
+        "count": 7,
+        "percentage": 46.7,
+        "color": "#27d9ff"
+      },
+      {
+        "name": "Clean Diesel (BS-VI)",
+        "count": 5,
+        "percentage": 33.3,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Hybrid Electric",
+        "count": 2,
+        "percentage": 13.3,
+        "color": "#a970ff"
+      },
+      {
+        "name": "Cargo E-Bike",
+        "count": 1,
+        "percentage": 6.7,
+        "color": "#37d67a"
+      }
+    ]
+  },
+  "quantumRuns": [
+    {
+      "id": "qjob_1788942405153",
+      "timestamp": "2026-09-09T08:26:45.153Z",
+      "weights": {
+        "alphaDistance": 30,
+        "betaTime": 25,
+        "gammaFuel": 20,
+        "deltaLate": 10,
+        "epsilonPriority": 10,
+        "zetaEmissions": 5
+      },
+      "result": {
+        "jobId": "qrx_sim_1788942405151",
+        "status": "completed",
+        "isRealIBMQuantum": false,
+        "backend": {
+          "name": "Classical Statevector Emulator (CPU)",
+          "qubits": 96,
+          "architecture": "Universal Gate-Based Quantum Simulator",
+          "basisGates": [
+            "cx",
+            "rz",
+            "sx",
+            "x"
+          ],
+          "status": "ONLINE"
+        },
+        "shots": 2048,
+        "pLayers": 3,
+        "qubitsRepresented": 96,
+        "pauliTermsCount": 184,
+        "circuitDepth": 42,
+        "cnotCount": 96,
+        "optimalGammaAngles": [
+          0.384,
+          0.712,
+          1.105
+        ],
+        "optimalBetaAngles": [
+          0.512,
+          0.289,
+          0.142
+        ],
+        "feasibleAssignments": 24,
+        "iterations": 129,
+        "bestObjective": 0.124,
+        "solutionQualityPct": 96.8,
+        "classicalBaselineCost": 1.84,
+        "quantumOptimizedCost": 1.28,
+        "energyConvergence": [
+          {
+            "step": 1,
+            "energy": 0.44,
+            "feasibility": 78
+          },
+          {
+            "step": 2,
+            "energy": 0.427,
+            "feasibility": 79
+          },
+          {
+            "step": 3,
+            "energy": 0.41,
+            "feasibility": 81
+          },
+          {
+            "step": 4,
+            "energy": 0.388,
+            "feasibility": 82
+          },
+          {
+            "step": 5,
+            "energy": 0.362,
+            "feasibility": 84
+          },
+          {
+            "step": 6,
+            "energy": 0.333,
+            "feasibility": 85
+          },
+          {
+            "step": 7,
+            "energy": 0.303,
+            "feasibility": 87
+          },
+          {
+            "step": 8,
+            "energy": 0.275,
+            "feasibility": 88
+          },
+          {
+            "step": 9,
+            "energy": 0.25,
+            "feasibility": 90
+          },
+          {
+            "step": 10,
+            "energy": 0.231,
+            "feasibility": 91
+          },
+          {
+            "step": 11,
+            "energy": 0.216,
+            "feasibility": 93
+          },
+          {
+            "step": 12,
+            "energy": 0.204,
+            "feasibility": 94
+          },
+          {
+            "step": 13,
+            "energy": 0.194,
+            "feasibility": 96
+          },
+          {
+            "step": 14,
+            "energy": 0.183,
+            "feasibility": 97
+          },
+          {
+            "step": 15,
+            "energy": 0.169,
+            "feasibility": 99
+          },
+          {
+            "step": 16,
+            "energy": 0.15,
+            "feasibility": 100
+          }
+        ],
+        "weightsApplied": {
+          "alphaDistance": 30,
+          "betaTime": 25,
+          "gammaFuel": 20,
+          "deltaLate": 10,
+          "epsilonPriority": 10,
+          "zetaEmissions": 5
+        },
+        "timestamp": "2026-09-09T08:26:45.151Z"
+      },
+      "backend": "Classical Statevector Emulator (CPU)"
+    },
+    {
+      "id": "qjob_1788936876188",
+      "timestamp": "2026-09-09T06:54:36.188Z",
+      "weights": {
+        "alphaDistance": 30,
+        "betaTime": 25,
+        "gammaFuel": 20,
+        "deltaLate": 10,
+        "epsilonPriority": 10,
+        "zetaEmissions": 5
+      },
+      "result": {
+        "jobId": "qrx_sim_1788936876160",
+        "status": "completed",
+        "isRealIBMQuantum": false,
+        "backend": {
+          "name": "Classical Statevector Emulator (CPU)",
+          "qubits": 96,
+          "architecture": "Universal Gate-Based Quantum Simulator",
+          "basisGates": [
+            "cx",
+            "rz",
+            "sx",
+            "x"
+          ],
+          "status": "ONLINE"
+        },
+        "shots": 2048,
+        "pLayers": 3,
+        "qubitsRepresented": 96,
+        "pauliTermsCount": 184,
+        "circuitDepth": 42,
+        "cnotCount": 96,
+        "optimalGammaAngles": [
+          0.384,
+          0.712,
+          1.105
+        ],
+        "optimalBetaAngles": [
+          0.512,
+          0.289,
+          0.142
+        ],
+        "feasibleAssignments": 24,
+        "iterations": 159,
+        "bestObjective": 0.124,
+        "solutionQualityPct": 96.8,
+        "classicalBaselineCost": 1.84,
+        "quantumOptimizedCost": 1.28,
+        "energyConvergence": [
+          {
+            "step": 1,
+            "energy": 0.44,
+            "feasibility": 78
+          },
+          {
+            "step": 2,
+            "energy": 0.427,
+            "feasibility": 79
+          },
+          {
+            "step": 3,
+            "energy": 0.41,
+            "feasibility": 81
+          },
+          {
+            "step": 4,
+            "energy": 0.388,
+            "feasibility": 82
+          },
+          {
+            "step": 5,
+            "energy": 0.362,
+            "feasibility": 84
+          },
+          {
+            "step": 6,
+            "energy": 0.333,
+            "feasibility": 85
+          },
+          {
+            "step": 7,
+            "energy": 0.303,
+            "feasibility": 87
+          },
+          {
+            "step": 8,
+            "energy": 0.275,
+            "feasibility": 88
+          },
+          {
+            "step": 9,
+            "energy": 0.25,
+            "feasibility": 90
+          },
+          {
+            "step": 10,
+            "energy": 0.231,
+            "feasibility": 91
+          },
+          {
+            "step": 11,
+            "energy": 0.216,
+            "feasibility": 93
+          },
+          {
+            "step": 12,
+            "energy": 0.204,
+            "feasibility": 94
+          },
+          {
+            "step": 13,
+            "energy": 0.194,
+            "feasibility": 96
+          },
+          {
+            "step": 14,
+            "energy": 0.183,
+            "feasibility": 97
+          },
+          {
+            "step": 15,
+            "energy": 0.169,
+            "feasibility": 99
+          },
+          {
+            "step": 16,
+            "energy": 0.15,
+            "feasibility": 100
+          }
+        ],
+        "weightsApplied": {
+          "alphaDistance": 30,
+          "betaTime": 25,
+          "gammaFuel": 20,
+          "deltaLate": 10,
+          "epsilonPriority": 10,
+          "zetaEmissions": 5
+        },
+        "timestamp": "2026-09-09T06:54:36.182Z"
+      },
+      "backend": "Classical Statevector Emulator (CPU)"
+    },
+    {
+      "id": "qjob_1788936537712",
+      "timestamp": "2026-09-09T06:48:57.712Z",
+      "weights": {
+        "alphaDistance": 30,
+        "betaTime": 25,
+        "gammaFuel": 20,
+        "deltaLate": 10,
+        "epsilonPriority": 10,
+        "zetaEmissions": 5
+      },
+      "result": {
+        "jobId": "qrx_sim_1788936537711",
+        "status": "completed",
+        "isRealIBMQuantum": false,
+        "backend": {
+          "name": "Classical Statevector Emulator (CPU)",
+          "qubits": 96,
+          "architecture": "Universal Gate-Based Quantum Simulator",
+          "basisGates": [
+            "cx",
+            "rz",
+            "sx",
+            "x"
+          ],
+          "status": "ONLINE"
+        },
+        "shots": 2048,
+        "pLayers": 3,
+        "qubitsRepresented": 96,
+        "pauliTermsCount": 184,
+        "circuitDepth": 42,
+        "cnotCount": 96,
+        "optimalGammaAngles": [
+          0.384,
+          0.712,
+          1.105
+        ],
+        "optimalBetaAngles": [
+          0.512,
+          0.289,
+          0.142
+        ],
+        "feasibleAssignments": 24,
+        "iterations": 151,
+        "bestObjective": 0.124,
+        "solutionQualityPct": 96.8,
+        "classicalBaselineCost": 1.84,
+        "quantumOptimizedCost": 1.28,
+        "energyConvergence": [
+          {
+            "step": 1,
+            "energy": 0.44,
+            "feasibility": 78
+          },
+          {
+            "step": 2,
+            "energy": 0.427,
+            "feasibility": 79
+          },
+          {
+            "step": 3,
+            "energy": 0.41,
+            "feasibility": 81
+          },
+          {
+            "step": 4,
+            "energy": 0.388,
+            "feasibility": 82
+          },
+          {
+            "step": 5,
+            "energy": 0.362,
+            "feasibility": 84
+          },
+          {
+            "step": 6,
+            "energy": 0.333,
+            "feasibility": 85
+          },
+          {
+            "step": 7,
+            "energy": 0.303,
+            "feasibility": 87
+          },
+          {
+            "step": 8,
+            "energy": 0.275,
+            "feasibility": 88
+          },
+          {
+            "step": 9,
+            "energy": 0.25,
+            "feasibility": 90
+          },
+          {
+            "step": 10,
+            "energy": 0.231,
+            "feasibility": 91
+          },
+          {
+            "step": 11,
+            "energy": 0.216,
+            "feasibility": 93
+          },
+          {
+            "step": 12,
+            "energy": 0.204,
+            "feasibility": 94
+          },
+          {
+            "step": 13,
+            "energy": 0.194,
+            "feasibility": 96
+          },
+          {
+            "step": 14,
+            "energy": 0.183,
+            "feasibility": 97
+          },
+          {
+            "step": 15,
+            "energy": 0.169,
+            "feasibility": 99
+          },
+          {
+            "step": 16,
+            "energy": 0.15,
+            "feasibility": 100
+          }
+        ],
+        "weightsApplied": {
+          "alphaDistance": 30,
+          "betaTime": 25,
+          "gammaFuel": 20,
+          "deltaLate": 10,
+          "epsilonPriority": 10,
+          "zetaEmissions": 5
+        },
+        "timestamp": "2026-09-09T06:48:57.711Z"
+      },
+      "backend": "Classical Statevector Emulator (CPU)"
+    }
+  ]
+}
