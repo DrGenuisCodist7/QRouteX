@@ -24,48 +24,62 @@ interface DatabaseSchema {
 const DB_DIR = path.join(process.cwd(), 'data');
 const DB_FILE = path.join(DB_DIR, 'qroutex_db.json');
 
+// In-memory fallback for serverless/edge environments where filesystem is ephemeral or read-only
+let inMemoryDb: DatabaseSchema | null = null;
+
+function getDefaultDb(): DatabaseSchema {
+  return {
+    vehicles: INITIAL_VEHICLES,
+    orders: INITIAL_ORDERS,
+    routes: INITIAL_ROUTES,
+    disruptions: [],
+    analytics: INITIAL_ANALYTICS,
+    quantumRuns: [],
+  };
+}
+
 function ensureDb(): DatabaseSchema {
+  if (inMemoryDb) {
+    return inMemoryDb;
+  }
+
   try {
     if (!fs.existsSync(DB_DIR)) {
-      fs.mkdirSync(DB_DIR, { recursive: true });
+      try {
+        fs.mkdirSync(DB_DIR, { recursive: true });
+      } catch {}
     }
 
-    if (!fs.existsSync(DB_FILE)) {
-      const initialDb: DatabaseSchema = {
-        vehicles: INITIAL_VEHICLES,
-        orders: INITIAL_ORDERS,
-        routes: INITIAL_ROUTES,
-        disruptions: [],
-        analytics: INITIAL_ANALYTICS,
-        quantumRuns: [],
-      };
+    if (fs.existsSync(DB_FILE)) {
+      const content = fs.readFileSync(DB_FILE, 'utf-8');
+      inMemoryDb = JSON.parse(content) as DatabaseSchema;
+      return inMemoryDb;
+    }
+
+    const initialDb = getDefaultDb();
+    try {
       fs.writeFileSync(DB_FILE, JSON.stringify(initialDb, null, 2), 'utf-8');
-      return initialDb;
-    }
-
-    const content = fs.readFileSync(DB_FILE, 'utf-8');
-    return JSON.parse(content) as DatabaseSchema;
+    } catch {}
+    inMemoryDb = initialDb;
+    return initialDb;
   } catch (err) {
-    console.error('Error reading/initializing database file:', err);
-    return {
-      vehicles: INITIAL_VEHICLES,
-      orders: INITIAL_ORDERS,
-      routes: INITIAL_ROUTES,
-      disruptions: [],
-      analytics: INITIAL_ANALYTICS,
-      quantumRuns: [],
-    };
+    console.warn('Filesystem read failed, using in-memory store:', err);
+    inMemoryDb = inMemoryDb || getDefaultDb();
+    return inMemoryDb;
   }
 }
 
 function writeDb(data: DatabaseSchema): void {
+  inMemoryDb = data;
   try {
     if (!fs.existsSync(DB_DIR)) {
-      fs.mkdirSync(DB_DIR, { recursive: true });
+      try {
+        fs.mkdirSync(DB_DIR, { recursive: true });
+      } catch {}
     }
     fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2), 'utf-8');
   } catch (err) {
-    console.error('Error writing database file:', err);
+    // Graceful fallback on read-only environments like Vercel Lambda
   }
 }
 
