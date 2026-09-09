@@ -14,10 +14,10 @@
       "isEV": true,
       "energyType": "EV Battery",
       "energyLevelPct": 81,
-      "currentLoadKg": 435.5,
+      "currentLoadKg": 420,
       "maxCapacityKg": 1000,
-      "loadPercentage": 44,
-      "ordersCount": 15,
+      "loadPercentage": 42,
+      "ordersCount": 14,
       "currentCoordinates": [
         17.4302,
         78.4071
@@ -422,46 +422,6 @@
     }
   ],
   "orders": [
-    {
-      "customerName": "rgbthkenvl",
-      "customerType": "Pharmacy",
-      "address": "q3f3etg3g",
-      "coordinates": [
-        17.40135986112418,
-        78.42946629831438
-      ],
-      "priority": "HIGH",
-      "timeWindow": "11:00 – 13:00",
-      "assignedVehicleId": "V-07",
-      "state": "Assigned",
-      "weightKg": 15.5,
-      "packagesCount": 2,
-      "notes": "vtrebtew",
-      "id": "#1018",
-      "trackingCode": "QRX-PHA-3227",
-      "deadlineIso": "2026-09-09T09:55:32.180Z",
-      "slaRisk": "MEDIUM"
-    },
-    {
-      "customerName": "AeroSpace Hub Alpha",
-      "customerType": "Enterprise",
-      "address": "Gachibowli Outer Ring Rd, Block 4",
-      "coordinates": [
-        17.43491549993871,
-        78.45246389822134
-      ],
-      "priority": "NORMAL",
-      "timeWindow": "14:00 - 15:30",
-      "assignedVehicleId": "V-101",
-      "state": "Assigned",
-      "weightKg": 45.5,
-      "packagesCount": 3,
-      "notes": "Contains sensitive flight telematics gear",
-      "id": "#577",
-      "trackingCode": "QRX-ENT-6433",
-      "deadlineIso": "2026-09-09T09:48:56.195Z",
-      "slaRisk": "HIGH"
-    },
     {
       "customerName": "AeroSpace Hub Alpha",
       "customerType": "Enterprise",
@@ -882,6 +842,149 @@
     ]
   },
   "quantumRuns": [
+    {
+      "id": "qjob_1788946231342",
+      "timestamp": "2026-09-09T09:30:31.342Z",
+      "weights": {
+        "alphaDistance": 30,
+        "betaTime": 25,
+        "gammaFuel": 20,
+        "deltaLate": 10,
+        "epsilonPriority": 10,
+        "zetaEmissions": 5
+      },
+      "result": {
+        "jobId": "qrx_sim_1788946231341",
+        "status": "completed",
+        "isRealIBMQuantum": false,
+        "backend": {
+          "name": "Classical Statevector Emulator (CPU)",
+          "qubits": 96,
+          "architecture": "Universal Gate-Based Quantum Simulator",
+          "basisGates": [
+            "cx",
+            "rz",
+            "sx",
+            "x"
+          ],
+          "status": "ONLINE"
+        },
+        "shots": 2048,
+        "pLayers": 3,
+        "qubitsRepresented": 96,
+        "pauliTermsCount": 184,
+        "circuitDepth": 42,
+        "cnotCount": 96,
+        "optimalGammaAngles": [
+          0.384,
+          0.712,
+          1.105
+        ],
+        "optimalBetaAngles": [
+          0.512,
+          0.289,
+          0.142
+        ],
+        "feasibleAssignments": 24,
+        "iterations": 128,
+        "bestObjective": 0.124,
+        "solutionQualityPct": 96.8,
+        "classicalBaselineCost": 1.84,
+        "quantumOptimizedCost": 1.28,
+        "energyConvergence": [
+          {
+            "step": 1,
+            "energy": 0.44,
+            "feasibility": 78
+          },
+          {
+            "step": 2,
+            "energy": 0.427,
+            "feasibility": 79
+          },
+          {
+            "step": 3,
+            "energy": 0.41,
+            "feasibility": 81
+          },
+          {
+            "step": 4,
+            "energy": 0.388,
+            "feasibility": 82
+          },
+          {
+            "step": 5,
+            "energy": 0.362,
+            "feasibility": 84
+          },
+          {
+            "step": 6,
+            "energy": 0.333,
+            "feasibility": 85
+          },
+          {
+            "step": 7,
+            "energy": 0.303,
+            "feasibility": 87
+          },
+          {
+            "step": 8,
+            "energy": 0.275,
+            "feasibility": 88
+          },
+          {
+            "step": 9,
+            "energy": 0.25,
+            "feasibility": 90
+          },
+          {
+            "step": 10,
+            "energy": 0.231,
+            "feasibility": 91
+          },
+          {
+            "step": 11,
+            "energy": 0.216,
+            "feasibility": 93
+          },
+          {
+            "step": 12,
+            "energy": 0.204,
+            "feasibility": 94
+          },
+          {
+            "step": 13,
+            "energy": 0.194,
+            "feasibility": 96
+          },
+          {
+            "step": 14,
+            "energy": 0.183,
+            "feasibility": 97
+          },
+          {
+            "step": 15,
+            "energy": 0.169,
+            "feasibility": 99
+          },
+          {
+            "step": 16,
+            "energy": 0.15,
+            "feasibility": 100
+          }
+        ],
+        "weightsApplied": {
+          "alphaDistance": 30,
+          "betaTime": 25,
+          "gammaFuel": 20,
+          "deltaLate": 10,
+          "epsilonPriority": 10,
+          "zetaEmissions": 5
+        },
+        "timestamp": "2026-09-09T09:30:31.341Z"
+      },
+      "backend": "Classical Statevector Emulator (CPU)"
+    },
     {
       "id": "qjob_1788942405153",
       "timestamp": "2026-09-09T08:26:45.153Z",
